@@ -24,14 +24,14 @@ Pick list
 The following not-yet-merged changes are necessary for successful
 compilation of LineageOS for the device:
 
-* https://review.lineageos.org/c/LineageOS/android_build/+/215826
-* https://review.lineageos.org/c/LineageOS/android_frameworks_base/+/214991
+* https://review.lineageos.org/c/LineageOS/android_frameworks_base/+/221557
+* https://gerrit.omnirom.org/#/c/android_bootable_recovery/+/31454/
+* https://gerrit.omnirom.org/#/c/android_bootable_recovery/+/31630/
+* https://gerrit.omnirom.org/#/c/android_bootable_recovery/+/31662/ or https://gerrit.omnirom.org/#/c/android_bootable_recovery/+/28622/
 
 From a shell environment, you can pick them as following:
 
 ```bash
 $ source build/envsetup.sh
-$ repopick 215826
-$ repopick 214991
+$ repopick 221557
 ```
-
